@@ -1,9 +1,8 @@
 API feita para integração a uma página de cadastro
-Ferramentas: 
+#### Ferramentas: 
 - Node.js
 - Express.js
 - Prisma
 - MongoDB
-Extensões VSCode:
+#### Extensões VSCode:
 - Thunder Client
-- 
