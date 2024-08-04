@@ -1,1 +1,9 @@
-API feita com Node.js e testando usando a extensão Thunder Client do VSCode e colocando no MongoDB
+API feita para integração a uma página de cadastro
+Ferramentas: 
+- Node.js
+- Express.js
+- Prisma
+- MongoDB
+Extensões VSCode:
+- Thunder Client
+- 
