@@ -1,4 +1,5 @@
 import express from 'express'
+import cors from 'cors'
 import {PrismaClient} from '@prisma/client'
 
 // Criação de uma instância do Prisma Client para interagir com o banco de dados
@@ -7,6 +8,7 @@ const prisma = new PrismaClient()
 // Inicialização do aplicativo Express
 const app = express()
 app.use(express.json())
+app.use(cors())
 
 // Rota POST para criar um novo usuário
 app.post('/usuarios', async (req, res) => {
